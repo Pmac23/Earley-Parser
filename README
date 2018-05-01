@@ -1,0 +1,23 @@
+
+	Part1:
+	Batch will output to command line, so pipe it to a file like so:
+	java earleyParser grammars/simple.gr examples/Sentences1.txt > results/Part1.txt
+	
+	Part2:
+	Batch will output to command line, so pipe it to a file like so:
+	java earleyParser grammars/simpleImproved.gr examples/Sentences2.txt > results/Part2.txt
+	
+	Part 3:
+	Batch will output to command line, so pipe it to a file like so:
+	java Earley grammars/simple.gr examples/Sentences1.txt > results/bracketPart3.txt
+	
+	Part 4(a):
+	Batch will output to command line, so pipe it to a file like so:
+	java Earley grammars/prob-simple.gr examples/Sentences1.txt > results/bracketPart4.txt
+	
+	Part 4(b):
+	Batch will output to command line, so pipe it to a file like so:
+	java Earley grammars/prob-simple.gr examples/ambiguoussentence.txt > results/ambiguousparse.txt
+
+
+	
